@@ -6,14 +6,14 @@ module.exports = async (context) => {
 
     try {
         const categories = [
-            
+
             { name: 'General', emoji: '✍️' },
             { name: 'Settings', emoji: '⚙️' },
 { name: 'Owner', emoji: '👑' },
 { name: 'Wa-Privacy', emoji: '🪀' },
 { name: 'Groups', emoji: '👥' },
 { name: 'AI', emoji: '🤖' },
-            
+
             { name: 'Media', emoji: '🎥' },
             { name: 'Editting', emoji: '✂️' },
             { name: 'Groups', emoji: '👥' },
@@ -83,7 +83,7 @@ module.exports = async (context) => {
             menuText += '\n';
         }
 
-        
+
 
 await client.sendMessage(m.chat, {
                         text: menuText,
